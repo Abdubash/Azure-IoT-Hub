@@ -7,7 +7,7 @@ Use Case for communication from Industrial Edge Device to Azure IoT Hub via MQTT
   -  [Network Architecture](#Network-Architecture)
 - [Communication with Azure](Communication-with-Azure)
 - [Synchronization to Azure IoT Hub](#Synchronization-to-Azure-IoT-Hub)
-<img width="2805" height="1417" alt="image" src="https://github.com/user-attachments/assets/1157268b-dcd2-4f85-8032-b908eeabb21d" />
+
 
 # Overview
 The following image represents the data flow that will be achieved in this example, which covers everything from the acquisition of data from a machine in full production to its storage and processing in the cloud in general:
