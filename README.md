@@ -5,7 +5,14 @@ Use Case for communication from Industrial Edge Device to Azure IoT Hub via MQTT
 - [Synchronization to Azure IoT Hub](#Synchronization-to-Azure-IoT-Hub)
 <img width="2805" height="1417" alt="image" src="https://github.com/user-attachments/assets/1157268b-dcd2-4f85-8032-b908eeabb21d" />
 
+
 # Overview
+The following image represents the data flow that will be achieved in this example, which covers everything from the acquisition of data from a machine in full production to its storage and processing in the cloud in general:
+<img width="2317" height="1171" alt="image" src="https://github.com/user-attachments/assets/77b1d731-6206-4fc4-9912-d9f5a2eb1e31" />
+
+
+
+# Communication-with-Azure
 
 To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the method used is called "Use the MQTT protocol directly from a device". The steps portrayed in this documentation were extracted from Use the MQTT protocol directly from a device in Azure's "Communicate with an IoT hub using the MQTT protocol" article. Additional context can be found in the article.
 
