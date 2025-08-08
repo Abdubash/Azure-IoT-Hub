@@ -1,5 +1,5 @@
 # Azure-IoT-Hub
-Use Case for communication from Industrial Edge Device to Azure IoT Hub via MQTT.
+Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub via MQTT.
 
 - [Azure IoT Hub](#azure-iot-hub)
 - [Overview](#overview)
@@ -29,9 +29,9 @@ To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the
 It is possible to connect to a device in Azure IoT Hub either using a shared access signature, i.e. username and password authentication, or using X.509 certificates, i.e. client certificates. For this documentation, a shared access signature will be used. The MQTT communication will be established using MQTT via WebSockets over port 443. Other protocols can be used as well, but please note that all device communication with IoT Hub must be secured using TLS. IoT Hub doesn't support insecure MQTT connections over port 1883.
 
 
-### Conclusion
+### Checkpoint
 - A commomunication between IED and Azure IoT Hub is possible via secured websocket over 443 port
-  - Usernane \& Password or X.509 Certificate
+  - Username \& Password or X.509 Certificate
 
 ## Synchronization-to-Azure-IoT-Hub
 
