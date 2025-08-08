@@ -1,5 +1,9 @@
+
+
 # Azure-IoT-Hub
 Use Case for communication from Industrial Edge Device to Azure IoT Hub via MQTT.
+- [Azure IoT Hub](#azure-iot-hub)
+- [Overview](#overview)
 <img width="2805" height="1417" alt="image" src="https://github.com/user-attachments/assets/1157268b-dcd2-4f85-8032-b908eeabb21d" />
 # Overview
 To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the method used is called "Use the MQTT protocol directly from a device". The steps portrayed in this documentation were extracted from Use the MQTT protocol directly from a device in Azure's "Communicate with an IoT hub using the MQTT protocol" article. Additional context can be found in the article.
@@ -25,3 +29,11 @@ To generate a SAS token, use the following command:
 
 ```bash
 az iot hub generate-sas-token --hub-name YourHubName --device-id YourDeviceId --duration 172000
+
+
+## Documentation
+
+
+you can further documentation :
+
+- [Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
