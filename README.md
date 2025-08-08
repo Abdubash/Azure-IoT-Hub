@@ -19,6 +19,8 @@ This representation visualizes how data moves across edge applications within ed
 
 # Network-Architecture
 The following image illustrates the interaction and communication between all the devices used:
+<img width="1354" height="1351" alt="image" src="https://github.com/user-attachments/assets/d47fb500-364b-424c-984e-0003f3065c2b" />
+
 
 # Communication-with-Azure
 
