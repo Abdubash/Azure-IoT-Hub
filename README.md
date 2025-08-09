@@ -119,8 +119,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
     
 		'az account set --subscription msa-000934'
 
-
-		<img width="930" height="496" alt="image" src="https://github.com/user-attachments/assets/9144ca7c-95cb-4a0f-b45c-9d439dc234d6" />
+<img width="930" height="496" alt="image" src="https://github.com/user-attachments/assets/9144ca7c-95cb-4a0f-b45c-9d439dc234d6" />
 
 
 					
@@ -129,7 +128,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
    - Set Advances Setting to Active
    - Set Status to Active
 
-		<img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
+<img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
 
    - Check Messages in Azure
   
@@ -138,12 +137,10 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 			  ```
   
 
-
-			<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
+<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
 
 
 
 ## Documentation
 you can further documentation :
-	
-	- [Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
+[Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
