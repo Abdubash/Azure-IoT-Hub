@@ -11,7 +11,9 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 
 # Overview
 The following image represents the data flow that will be achieved in this example, which covers everything from the acquisition of data from a machine in full production to its storage and processing in the cloud in general:
+
 <img width="2306" height="1187" alt="image" src="https://github.com/user-attachments/assets/b485ae29-5fbc-4727-b01b-c3053a0fd7fc" />
+
 # Reference-Architecture
 This representation visualizes how data moves across edge applications within edge devices to the Microsoft Azure IoT Hub. The specific configurations of these applications will be detailed in this repository:
 
@@ -19,6 +21,7 @@ This representation visualizes how data moves across edge applications within ed
 
 # Network-Architecture
 The following image illustrates the interaction and communication between all the devices used:
+
 <img width="1354" height="1351" alt="image" src="https://github.com/user-attachments/assets/d47fb500-364b-424c-984e-0003f3065c2b" />
 
 
@@ -36,6 +39,7 @@ It is possible to connect to a device in Azure IoT Hub either using a shared acc
 ## Synchronization-to-Azure-IoT-Hub
 
 The generic MQTT synchronization of IIH can synchronize to any MQTT broker, including brokers on AWS or Azure
+
 <img width="2278" height="1188" alt="image" src="https://github.com/user-attachments/assets/fd2facda-2491-4567-a1c1-bd6a5a9b43ee" />
 
 ## Configuration IoT Azure Hub
@@ -48,19 +52,24 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 1. Setting up data destinations in Common Configuration app
    a. Add destiniation and choose Generic MQTT Broker
+
    <img width="757" height="659" alt="image" src="https://github.com/user-attachments/assets/c856ef3a-d670-4922-a26a-cba591322a3e" />
 
 2. Fill out the configuration with the required information
+
    - Add Name for your Data Destination
    - MQTT host: is your host name in Azure IoT Hub
+
       <img width="1688" height="384" alt="image" src="https://github.com/user-attachments/assets/9cd3c877-cc41-4052-9a82-c6bf26289fcf" />
 
    - MQTT Port: 443
    - MQTT path: /$iothub/websocket
    - Enter MQTT Client ID: the client ID is you Device ID from Azure Iot Hub
-    <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
-
-- upload configuration file change your-device-id with your Device ID from IoT Hub
+   - 
+		   <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
+     
+   -    <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
+   - upload configuration file change your-device-id with your Device ID from IoT Hub
    ```
   		{
 		    "topic": "devices/{your-device-id}/messages/events/",
@@ -75,11 +84,11 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 		            "Quality_Code": "$qualityCode"
 		        }
 		    }
-}
+   }
 
   
 
-
+### Configuration
   <img width="469" height="1048" alt="image" src="https://github.com/user-attachments/assets/5e6cd809-c622-44c6-92d7-783382ffdc3e" />
 
 
