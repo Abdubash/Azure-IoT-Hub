@@ -156,4 +156,4 @@ Your Subscribtion can be foound in your IoT Hub
 
 ## Documentation
 Further documentation can be found here:
-[Docs for Industrial Operations X](https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
+[Connecting to Azure IoT Hub](https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
