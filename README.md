@@ -7,6 +7,10 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
   -  [Network Architecture](#Network-Architecture)
 - [Communication with Azure](Communication-with-Azure)
 - [Synchronization to Azure IoT Hub](#Synchronization-to-Azure-IoT-Hub)
+- [IoT Azure Hub Configuiration](#Configuration-IoT-Azure-Hub)
+- [Industrial Edge Device Configuration](#Industiral-Edge-Device-Configuration)
+- [Documentation](#Documentaion)
+
 
 
 # Overview
@@ -42,13 +46,13 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 <img width="2278" height="1188" alt="image" src="https://github.com/user-attachments/assets/fd2facda-2491-4567-a1c1-bd6a5a9b43ee" />
 
-## Configuration IoT Azure Hub
+## Configuration-IoT-Azure-Hub
 
 - Add Device to your IoT Hub
     <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/e817e4e0-b1aa-456a-a76c-fa5601c3e3e3" />
 
 
-## Industiral Edge Device Configuration
+## Industiral-Edge-Device-Configuration
 
 1. Setting up data destinations in Common Configuration app
    a. Add destiniation and choose Generic MQTT Broker
@@ -132,35 +136,10 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 
    - asd
-   - asd
-   - asd
-   - asd
-   
-
-  
-
-### Configuration
-  <img width="469" height="1048" alt="image" src="https://github.com/user-attachments/assets/5e6cd809-c622-44c6-92d7-783382ffdc3e" />
-
-
-
-## Command Layout
-
-Below are examples of command-line instructions in Markdown format. These commands are used for interacting with Azure IoT Hub.
-
-### Example Commands
-
-#### Generate SAS Token
-
-To generate a SAS token, use the following command:
-
-```bash
-az iot hub generate-sas-token --hub-name YourHubName --device-id YourDeviceId --duration 172000
 
 
 ## Documentation
 
-
-you can further documentation :
-
-- [Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
+	you can further documentation :
+	
+	- [Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
