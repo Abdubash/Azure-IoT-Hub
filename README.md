@@ -73,6 +73,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
      <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
 
    - upload configuration file and change {your-device-id} with your Device ID from IoT Hub
+     
 			```
   		{
 		    "topic": "devices/{your-device-id}/messages/events/",
@@ -89,6 +90,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 		    }
       }
          ```
+     
    - MQTT authentication method: Use credentials
      	- Username: is build of hostname/deviceId/?api-version=2021-04-12
      	   For the "Username" field, use {iotHub-hostname}/{device-id}/?api-version=2021-04-12, where {iotHub-hostname} is the full CName of the IoT hub.
@@ -134,12 +136,11 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 			  ```
 			  az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
 			  ```
-     
+  
+
+
 			<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
 
-
-
-   - asd
 
 
 ## Documentation
