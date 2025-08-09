@@ -87,7 +87,8 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 		            "Quality_Code": "$qualityCode"
 		        }
 		    }
-   }
+      }
+         ```
    - MQTT authentication method: Use credentials
      	- Username: is build of hostname/deviceId/?api-version=2021-04-12
      	   For the "Username" field, use {iotHub-hostname}/{device-id}/?api-version=2021-04-12, where {iotHub-hostname} is the full CName of the IoT hub.
@@ -100,8 +101,9 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 		SharedAccessSignature sig={signature-string}&se={expiry}&sr={URL-encoded-resourceURI}
 		
 		for generation use the following command:
-		
+		```
 		'az iot hub generate-sas-token --hub-name YourHubName --device-id YourDeviceId --duration 172000'
+ 	    ```
 		for example
 		'az iot hub generate-sas-token --hub-name AVSHub --device-id Abdul_Test --duration 172000'
 		
@@ -111,7 +113,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
   
      	 ```
 		 az account set --subscription yoursubscriotionID
-
+	  	```
 		'az account set --subscription msa-000934'
 
 
@@ -130,7 +132,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
   
 			  ```
 			  az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
-
+			  ```
 			<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
 
 
@@ -139,7 +141,6 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 
 ## Documentation
-
-	you can further documentation :
+you can further documentation :
 	
 	- [Docs for Industrial Operations X] (https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
