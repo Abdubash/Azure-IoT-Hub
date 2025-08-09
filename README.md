@@ -26,6 +26,14 @@ The following image illustrates the interaction and communication between all th
 
 <img width="1354" height="1351" alt="image" src="https://github.com/user-attachments/assets/d47fb500-364b-424c-984e-0003f3065c2b" />
 
+# Prerequisites
+
+- Industrial Edge Device
+- IIH
+    - Common Configuration V 2.2
+    - IIH Essentials V 2.2
+    - IIH Semantics V 2.2
+
 # Communication with Azure
 
 To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the method used is called "Use the MQTT protocol directly from a device". The steps portrayed here were extracted from Azure's "Communicate with an IoT hub using the MQTT protocol" article. Additional context can be found in the article.
@@ -46,7 +54,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 ## Configuration IoT Azure Hub
 
-- If you don't habe an IoT Hub Device, add a Device to your IoT Hub:
+- If you don't have an IoT Hub Device, add a Device to your IoT Hub:
 
 
     <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/e817e4e0-b1aa-456a-a76c-fa5601c3e3e3" />
@@ -55,12 +63,13 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 ## Industrial Edge Device Configuration
 
-1. Setting up data destinations in the Common Configuration app
+1. Setting up data destinations in the Common Configuration app:
+
    a. Add destination and choose Generic MQTT Broker
 
    <img width="757" height="659" alt="image" src="https://github.com/user-attachments/assets/c856ef3a-d670-4922-a26a-cba591322a3e" />
 
-2. Fill out the configuration with the required information
+3. Fill out the configuration with the required information
 
    <img width="757" height="1055" alt="image" src="https://github.com/user-attachments/assets/42674146-b3c1-4f7a-9544-a63c7248ff88" />
 
