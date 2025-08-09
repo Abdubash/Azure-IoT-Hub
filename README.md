@@ -113,7 +113,8 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
   
      	 ```
 		 az account set --subscription yoursubscriotionID
-	  	```
+	  	 ```
+    
 		'az account set --subscription msa-000934'
 
 
@@ -133,6 +134,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 			  ```
 			  az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
 			  ```
+     
 			<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
 
 
