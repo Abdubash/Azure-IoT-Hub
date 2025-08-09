@@ -65,12 +65,11 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
    - MQTT Port: 443
    - MQTT path: /$iothub/websocket
    - Enter MQTT Client ID: the client ID is you Device ID from Azure Iot Hub
-   - 
-		   <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
      
-   -    <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
-   - upload configuration file change your-device-id with your Device ID from IoT Hub
-   ```
+     <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
+
+   - upload configuration file and change {your-device-id} with your Device ID from IoT Hub
+			```
   		{
 		    "topic": "devices/{your-device-id}/messages/events/",
 		    "payload": {
@@ -85,6 +84,58 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 		        }
 		    }
    }
+   - MQTT authentication method: Use credentials
+     	- Username: is build of hostname/deviceId/?api-version=2021-04-12
+     	   For the "Username" field, use {iotHub-hostname}/{device-id}/?api-version=2021-04-12, where {iotHub-hostname} is the full CName of the IoT hub.
+					
+					for example AVSHub.azure-devices.net/AlphaAA/?api-version=2021-04-12
+     	- Password: the password is SAS Token generated on https://portal.azure.com/#cloudshell/
+
+		For the "Password field", use a SAS token. The following snippet shows the format of the SAS token:
+		
+		SharedAccessSignature sig={signature-string}&se={expiry}&sr={URL-encoded-resourceURI}
+		
+		for generation use the following command:
+		
+		'az iot hub generate-sas-token --hub-name YourHubName --device-id YourDeviceId --duration 172000'
+		for example
+		'az iot hub generate-sas-token --hub-name AVSHub --device-id Abdul_Test --duration 172000'
+		
+		<img width="1220" height="305" alt="image" src="https://github.com/user-attachments/assets/a4c96f85-9cc3-426c-aef4-869835dff88c" />
+
+     	 In case of subscription error run the following command first
+  
+     	 ```
+		 az account set --subscription yoursubscriotionID
+
+		'az account set --subscription msa-000934'
+
+
+		<img width="930" height="496" alt="image" src="https://github.com/user-attachments/assets/9144ca7c-95cb-4a0f-b45c-9d439dc234d6" />
+
+
+					
+
+
+   - Set Advances Setting to Active
+   - Set Status to Active
+
+		<img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
+
+   - Check Messages in Azure
+  
+			  ```
+			  az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
+
+			<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
+
+
+
+   - asd
+   - asd
+   - asd
+   - asd
+   
 
   
 
