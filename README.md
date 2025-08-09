@@ -38,6 +38,25 @@ It is possible to connect to a device in Azure IoT Hub either using a shared acc
 The generic MQTT synchronization of IIH can synchronize to any MQTT broker, including brokers on AWS or Azure
 <img width="2278" height="1188" alt="image" src="https://github.com/user-attachments/assets/fd2facda-2491-4567-a1c1-bd6a5a9b43ee" />
 
+### Industiral Edge Device Configuration
+
+1. Setting up data destinations in Common Configuration app
+   a. Add destiniation and choose Generic MQTT Broker
+   <img width="757" height="659" alt="image" src="https://github.com/user-attachments/assets/c856ef3a-d670-4922-a26a-cba591322a3e" />
+
+2. Fill put the configuration with the required information
+   - Add Name for your Data Destination
+   - MQTT host: is your host name in Azure IoT Hub
+      <img width="1688" height="384" alt="image" src="https://github.com/user-attachments/assets/9cd3c877-cc41-4052-9a82-c6bf26289fcf" />
+
+   - MQTT Port: 443
+   - MQTT path: /$iothub/websocket
+   - Enter MQTT Client ID: the client ID is you Device ID from Azure Iot Hub
+    <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
+
+   - 
+  <img width="469" height="1048" alt="image" src="https://github.com/user-attachments/assets/5e6cd809-c622-44c6-92d7-783382ffdc3e" />
+
 
 
 
