@@ -60,6 +60,9 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 2. Fill out the configuration with the required information
 
+   <img width="757" height="1055" alt="image" src="https://github.com/user-attachments/assets/42674146-b3c1-4f7a-9544-a63c7248ff88" />
+
+
    - Add Name for your Data Destination
    - MQTT host: your host name in Azure IoT Hub
 
