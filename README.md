@@ -46,7 +46,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
 ## Configuration IoT Azure Hub
 
-- Add Device to your IoT Hub:
+- If you don't habe an IoT Hub Device, add a Device to your IoT Hub:
 
 
     <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/e817e4e0-b1aa-456a-a76c-fa5601c3e3e3" />
