@@ -69,9 +69,9 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
    <img width="757" height="659" alt="image" src="https://github.com/user-attachments/assets/c856ef3a-d670-4922-a26a-cba591322a3e" />
 
-3. Fill out the configuration with the required information
+2. Fill out the configuration with the required information
 
-   <img width="757" height="1055" alt="image" src="https://github.com/user-attachments/assets/42674146-b3c1-4f7a-9544-a63c7248ff88" />
+   <img width="580" height="798" alt="image" src="https://github.com/user-attachments/assets/c3f163dd-b9e6-461d-bad4-15279b4fd9e0" />
 
 
    - Add Name for your Data Destination
