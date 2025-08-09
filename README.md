@@ -29,7 +29,9 @@ The following image illustrates the interaction and communication between all th
 # Communication with Azure
 
 To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the method used is called "Use the MQTT protocol directly from a device". The steps portrayed here were extracted from Azure's "Communicate with an IoT hub using the MQTT protocol" article. Additional context can be found in the article.
+
 [Full Documentation](https://docs.industrial-operations-x.siemens.cloud/r/en-us/v2.2.0/industrial-information-hub-essentials/working-with-data/synchronizing-data/setting-up-data-destinations/synchronizing-data-to-a-generic-mqtt-broker/connecting-to-popular-mqtt-brokers/connecting-to-azure-iot-hub)
+
 It is possible to connect to a device in Azure IoT Hub either using a shared access signature (username and password authentication) or using X.509 certificates (client certificates). In this documentation, a shared access signature will be used. The MQTT communication will be established using MQTT via WebSockets over port 443. Other protocols can be used as well, but all device communication with IoT Hub must be secured using TLS. IoT Hub doesn't support insecure MQTT connections over port 1883.
 
 ### Checkpoint
