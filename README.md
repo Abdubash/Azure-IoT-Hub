@@ -112,7 +112,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
        For example:
        
        ```bash
-       az iot hub generate-sas-token --hub-name AVSHub --device-id Abdul_Test --duration 172000
+       az iot hub generate-sas-token --hub-name Testhub --device-id TestDevice --duration 172000
        ```
 
        <img width="1220" height="305" alt="image" src="https://github.com/user-attachments/assets/a4c96f85-9cc3-426c-aef4-869835dff88c" />
@@ -125,9 +125,9 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
     
      Example:
      ```bash
-     az account set --subscription msa-000934
+     az account set --subscription xxx-123456
      ```
-
+Your Subscribtion can be foound in your IoT Hub
 <img width="930" height="496" alt="image" src="https://github.com/user-attachments/assets/9144ca7c-95cb-4a0f-b45c-9d439dc234d6" />
 
    - Set Advanced Setting to Active
