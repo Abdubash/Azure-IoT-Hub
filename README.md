@@ -34,6 +34,9 @@ The following image illustrates the interaction and communication between all th
     - IIH Essentials V 2.2
     - IIH Semantics V 2.2
 
+  > [!IMPORTANT]
+> Please ensure that your Industrial Edge Device has a stable Internet connection.
+
 # Communication with Azure
 
 To communicate with Azure IoT Hub using the MQTT protocol in IIH Essentials, the method used is called "Use the MQTT protocol directly from a device". The steps portrayed here were extracted from Azure's "Communicate with an IoT hub using the MQTT protocol" article. Additional context can be found in the article.
