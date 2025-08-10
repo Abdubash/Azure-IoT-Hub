@@ -34,8 +34,9 @@ The following image illustrates the interaction and communication between all th
     - IIH Essentials V 2.2
     - IIH Semantics V 2.2
 
-  > [!IMPORTANT]
+> [!IMPORTANT]
 > Please ensure that your Industrial Edge Device has a stable Internet connection.
+> e.g. check you DNS settings, debug a httpsrequest in flowcreator.
 
 # Communication with Azure
 
