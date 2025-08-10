@@ -35,7 +35,7 @@ The following image illustrates the interaction and communication between all th
     - IIH Semantics V 2.2
 
 > [!IMPORTANT]
-> Please ensure that your Industrial Edge Device has a stable Internet connection.\n
+> Please ensure that your Industrial Edge Device has a stable Internet connection.\
 > e.g. check you DNS settings, debug a "http request" in Flowcreator.
 
 # Communication with Azure
