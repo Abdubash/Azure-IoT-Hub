@@ -15,17 +15,20 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 # Overview
 The following image represents the data flow that will be achieved in this example, covering everything from the acquisition of data from a machine in full production to its storage and processing in the cloud:
 
-<img width="2306" height="1187" alt="image" src="https://github.com/user-attachments/assets/b485ae29-5fbc-4727-b01b-c3053a0fd7fc" />
+<img width="1218" height="544" alt="image" src="https://github.com/user-attachments/assets/b2db553f-b10f-4899-894a-1b6247c5bc75" />
+
 
 # Reference Architecture
 This representation visualizes how data moves across edge applications within edge devices to the Microsoft Azure IoT Hub. The specific configurations of these applications are detailed in this repository:
 
-<img width="1190" height="1167" alt="image" src="https://github.com/user-attachments/assets/d2033b1b-2df0-4488-af95-6cd86065360b" />
+<img width="627" height="605" alt="image" src="https://github.com/user-attachments/assets/fabb2b68-417d-4bd6-a5bc-48909264b4ab" />
+
 
 # Network Architecture
 The following image illustrates the interaction and communication between all the devices used:
 
-<img width="1354" height="1351" alt="image" src="https://github.com/user-attachments/assets/d47fb500-364b-424c-984e-0003f3065c2b" />
+<img width="585" height="593" alt="image" src="https://github.com/user-attachments/assets/86bf4ab7-acf5-42b9-b938-61fdc25a596e" />
+
 
 # Prerequisites
 
@@ -55,7 +58,8 @@ It is possible to connect to a device in Azure IoT Hub either using a shared acc
 
 The generic MQTT synchronization of IIH can synchronize to any MQTT broker, including brokers on AWS or Azure:
 
-<img width="2278" height="1188" alt="image" src="https://github.com/user-attachments/assets/fd2facda-2491-4567-a1c1-bd6a5a9b43ee" />
+<img width="347" height="862" alt="image" src="https://github.com/user-attachments/assets/037cf924-2988-46a4-be15-162a08be13a6" />
+
 
 ## Configuration IoT Azure Hub
 
