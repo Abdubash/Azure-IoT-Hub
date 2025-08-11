@@ -37,7 +37,7 @@ The following image illustrates the interaction and communication between all th
 
 > [!IMPORTANT]
 > Please ensure that your Industrial Edge Device has a stable Internet connection.\
-> e.g. check you DNS settings, debug a "http request" in Flowcreator.
+> e.g. check DNS settings of your IED, debug a "http request" in Flowcreator.
 
 # Communication with Azure
 
