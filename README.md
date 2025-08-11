@@ -5,7 +5,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [Overview](#overview)
   - [Reference Architecture](#reference-architecture)
   - [Network Architecture](#network-architecture)
--[Prerequisites](#Prerequisites)
+- [Prerequisites](#Prerequisites)
 - [Communication with Azure](#communication-with-azure)
 - [Synchronization to Azure IoT Hub](#synchronization-to-azure-iot-hub)
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
