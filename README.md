@@ -58,7 +58,8 @@ It is possible to connect to a device in Azure IoT Hub either using a shared acc
 
 The generic MQTT synchronization of IIH can synchronize to any MQTT broker, including brokers on AWS or Azure:
 
-<img width="347" height="862" alt="image" src="https://github.com/user-attachments/assets/037cf924-2988-46a4-be15-162a08be13a6" />
+<img width="396" height="879" alt="image" src="https://github.com/user-attachments/assets/da18d440-2e7c-45d9-9376-d199875f0ef2" />
+
 
 
 ## Configuration IoT Azure Hub
