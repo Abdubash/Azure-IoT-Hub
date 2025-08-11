@@ -10,6 +10,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [Synchronization to Azure IoT Hub](#synchronization-to-azure-iot-hub)
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
 - [Industrial Edge Device Configuration](#industrial-edge-device-configuration)
+- [Summary](#Summary)
 - [Documentation](#documentation)
 
 # Overview
@@ -166,6 +167,11 @@ Your Subscribtion can be foound in your IoT Hub
       ```
 
 <img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
+
+## Summary
+
+This documentation outlines the process of establishing communication between an **Industrial Edge Device (IED)** and Azure IoT Hub using MQTT via WebSockets on port 443. The configuration involves setting up data destinations in the **Common Configuration** app and authenticating with a Shared Access Signature (SAS). The guide includes step-by-step instructions for configuring both the IoT Hub and the Edge Device, ensuring secure communication through TLS, and monitoring the messages in Azure. The document also provides necessary commands for SAS token generation and subscription management.
+
 
 ## Documentation
 Further documentation can be found here:
