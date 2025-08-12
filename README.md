@@ -166,7 +166,8 @@ Your Subscribtion can be foound in your IoT Hub
       az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
       ```
 
-<img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/207e01cb-3122-47a1-ab23-f855e29f296d" />
+<img width="2541" height="1150" alt="image" src="https://github.com/user-attachments/assets/bb51ebbf-42b3-4529-be2d-f3f82d9d12e6" />
+
 
 ## Summary
 
