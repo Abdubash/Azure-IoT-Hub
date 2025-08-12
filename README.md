@@ -28,7 +28,8 @@ This representation visualizes how data moves across edge applications within ed
 # Network Architecture
 The following image illustrates the interaction and communication between all the devices used:
 
-<img width="585" height="593" alt="image" src="https://github.com/user-attachments/assets/86bf4ab7-acf5-42b9-b938-61fdc25a596e" />
+v<img width="900" height="899" alt="image" src="https://github.com/user-attachments/assets/110c5c46-4f7d-4069-aaec-ba6275a33cf2" />
+
 
 
 # Prerequisites
