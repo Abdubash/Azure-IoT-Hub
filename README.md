@@ -160,6 +160,8 @@ Your Subscribtion can be foound in your IoT Hub
 
 <img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
 
+   - Add Messages in Hierarhcy by creating your model:
+        TBD
    - Check Messages in Azure
   
       ```bash
