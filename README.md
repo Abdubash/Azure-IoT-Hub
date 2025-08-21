@@ -11,7 +11,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
 - [Industrial Edge Device Configuration](#industrial-edge-device-configuration)
   - [Define Model in Data Destination Hierarchy](#define-model-in-data-destination-hierarchy)
-  - [Check Messages in Azure](#Check Messages in Azure)
+  - [Check Messages in Azure](#Check-messages-in-azure)
 - [Summary](#Summary)
 - [Documentation](#documentation)
 
