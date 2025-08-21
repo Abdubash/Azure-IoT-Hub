@@ -95,8 +95,16 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
 
       <img width="1688" height="384" alt="image" src="https://github.com/user-attachments/assets/9cd3c877-cc41-4052-9a82-c6bf26289fcf" />
 
-   - MQTT Port: 443
-   - MQTT path: /$iothub/websocket
+   - MQTT Port:
+     ```
+         443
+     ```
+
+   - MQTT path:
+   ```
+     /$iothub/websocket
+   ```
+     
    - Enter MQTT Client ID: the client ID is your Device ID from Azure IoT Hub
      
      <img width="578" height="498" alt="image" src="https://github.com/user-attachments/assets/643941f6-e48c-42c7-9ce9-4c5967d4eab0" />
