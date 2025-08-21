@@ -125,8 +125,8 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
        For the "Username" field, use `{iotHub-hostname}/{device-id}/?api-version=2021-04-12`, where `{iotHub-hostname}` is the full CName of the IoT hub.
        
        for example `AVSHub.azure-devices.net/AlphaAA/?api-version=2021-04-12`
-     - Password: the password is a SAS Token generated on https://portal.azure.com/#cloudshell/ using Azure CLI
-        -  Check Microsoft Documentation for Azure CLI [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/use-azure-cli-successfully-bash?view=azure-cli-latest), it is also possible to install Azure CLI on your host locally.
+     - Password: the password is a SAS Token generated on https://portal.azure.com/#cloudshell/ using Azure CLI.
+        - "Alternatively, Check Microsoft Documentation for Azure CLI [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/use-azure-cli-successfully-bash?view=azure-cli-latest), it is also possible to install Azure CLI on your host locally."
 
 
        For the "Password field", use a SAS token. The following format is used for the SAS token:
