@@ -126,7 +126,7 @@ The generic MQTT synchronization of IIH can synchronize to any MQTT broker, incl
        
        for example `AVSHub.azure-devices.net/AlphaAA/?api-version=2021-04-12`
      - Password: the password is a SAS Token generated on https://portal.azure.com/#cloudshell/ using Azure CLI.
-        - "Alternatively, Check Microsoft Documentation for Azure CLI [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/use-azure-cli-successfully-bash?view=azure-cli-latest), it is also possible to install Azure CLI on your host locally."
+        - "Alternatively, you can check the Microsoft Documentation for guidance on how to use the Azure CLI with Bash scripting [How-to use the Azure CLI in a Bash scripting language](https://learn.microsoft.com/en-us/cli/azure/use-azure-cli-successfully-bash?view=azure-cli-latest). It is also possible to install the Azure CLI              locally on your host machine."
 
 
        For the "Password field", use a SAS token. The following format is used for the SAS token:
