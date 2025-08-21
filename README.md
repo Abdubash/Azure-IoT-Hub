@@ -10,6 +10,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [Synchronization to Azure IoT Hub](#synchronization-to-azure-iot-hub)
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
 - [Industrial Edge Device Configuration](#industrial-edge-device-configuration)
+  -[Define Model in Data Destination Hierarchy] (#Define-model-in-data-destination-hierarchy)
 - [Summary](#Summary)
 - [Documentation](#documentation)
 
@@ -160,9 +161,30 @@ Your Subscribtion can be foound in your IoT Hub
 
 <img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
 
-   - Add Messages in Hierarhcy by creating your model:
+   - ## Define Model in Data Destination Hierarchy
+     -  1. Make sure you have defined you **Model** in IIH Semantics\Manage Data\Model
+            -  <img width="1617" height="1102" alt="image" src="https://github.com/user-attachments/assets/8ab91c11-d76b-47a3-b78d-d20307f9f763" />
+
+        2. Go to your **Data Destination** in IIH Semantics\Send data\Data Destinations, on the right the **Model should appear**
+            - <img width="2544" height="774" alt="image" src="https://github.com/user-attachments/assets/7d8a4767-ca8b-4943-a082-cb61efe50d8e" />
+      
+        3. Choose you model and import it to the **Hierarchy**, by clicking on Create
+            - <img width="521" height="431" alt="image" src="https://github.com/user-attachments/assets/2e61296c-dc66-4ffa-b625-549a9c7db49e" />
+
+        4. Your Model is now imported and the data is being sent to your **Azure IoT Hub**
+            - <img width="2548" height="918" alt="image" src="https://github.com/user-attachments/assets/52fb7950-6023-468a-a73e-0ae258e3f5fe" />
+
+        5. Alternativly, it is possible to create you own hierarchy
+            - <img width="2040" height="649" alt="image" src="https://github.com/user-attachments/assets/adc297bb-72ab-434b-8454-f44de4bbeb7e" />
+
+        
+        
+
+
+              
+     
         TBD
-   - Check Messages in Azure
+   - ## Check Messages in Azure
   
       ```bash
       az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
