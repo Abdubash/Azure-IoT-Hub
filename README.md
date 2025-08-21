@@ -11,6 +11,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
 - [Industrial Edge Device Configuration](#industrial-edge-device-configuration)
   - [Define Model in Data Destination Hierarchy](#define-model-in-data-destination-hierarchy)
+  - [Check Messages in Azure](#Check Messages in Azure)
 - [Summary](#Summary)
 - [Documentation](#documentation)
 
@@ -182,7 +183,8 @@ Your Subscribtion can be foound in your IoT Hub
       az iot hub monitor-events --hub-name <iot-hub-name> --device-id <device-id-name>
       ```
 
-<img width="2541" height="1150" alt="image" src="https://github.com/user-attachments/assets/bb51ebbf-42b3-4529-be2d-f3f82d9d12e6" />
+<img width="1421" height="889" alt="image" src="https://github.com/user-attachments/assets/2a430abd-383d-456e-93e7-e2072ff069df" />
+
 
 
 ## Summary
