@@ -162,7 +162,7 @@ Your Subscribtion can be foound in your IoT Hub
 <img width="421" height="186" alt="image" src="https://github.com/user-attachments/assets/646d127c-a874-4e76-b6d5-ed16b6bd84ba" />
 
    - ## Define Model in Data Destination Hierarchy
-     -  1. Make sure you have defined you **Model** in IIH Semantics\Manage Data\Model
+        1. Make sure you have defined you **Model** in IIH Semantics\Manage Data\Model
             -  <img width="1617" height="1102" alt="image" src="https://github.com/user-attachments/assets/8ab91c11-d76b-47a3-b78d-d20307f9f763" />
 
         2. Go to your **Data Destination** in IIH Semantics\Send data\Data Destinations, on the right the **Model should appear**
