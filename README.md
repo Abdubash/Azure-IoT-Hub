@@ -176,14 +176,6 @@ Your Subscribtion can be foound in your IoT Hub
 
         5. Alternatively, it is possible to create you own hierarchy
             - <img width="2040" height="649" alt="image" src="https://github.com/user-attachments/assets/adc297bb-72ab-434b-8454-f44de4bbeb7e" />
-
-        
-        
-
-
-              
-     
-        TBD
    - ## Check Messages in Azure
   
       ```bash
