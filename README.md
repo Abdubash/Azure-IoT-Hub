@@ -10,7 +10,7 @@ Use Case for communication from Industrial Edge Device (IED) to Azure IoT Hub vi
 - [Synchronization to Azure IoT Hub](#synchronization-to-azure-iot-hub)
 - [IoT Azure Hub Configuration](#configuration-iot-azure-hub)
 - [Industrial Edge Device Configuration](#industrial-edge-device-configuration)
-  -[Define Model in Data Destination Hierarchy] (#Define-model-in-data-destination-hierarchy)
+-[Define Model in Data Destination Hierarchy] (#Define-model-in-data-destination-hierarchy)
 - [Summary](#Summary)
 - [Documentation](#documentation)
 
@@ -29,7 +29,7 @@ This representation visualizes how data moves across edge applications within ed
 # Network Architecture
 The following image illustrates the interaction and communication between all the devices used:
 
-v<img width="900" height="899" alt="image" src="https://github.com/user-attachments/assets/110c5c46-4f7d-4069-aaec-ba6275a33cf2" />
+<img width="900" height="899" alt="image" src="https://github.com/user-attachments/assets/110c5c46-4f7d-4069-aaec-ba6275a33cf2" />
 
 
 
@@ -174,7 +174,7 @@ Your Subscribtion can be foound in your IoT Hub
         4. Your Model is now imported and the data is being sent to your **Azure IoT Hub**
             - <img width="2548" height="918" alt="image" src="https://github.com/user-attachments/assets/52fb7950-6023-468a-a73e-0ae258e3f5fe" />
 
-        5. Alternativly, it is possible to create you own hierarchy
+        5. Alternatively, it is possible to create you own hierarchy
             - <img width="2040" height="649" alt="image" src="https://github.com/user-attachments/assets/adc297bb-72ab-434b-8454-f44de4bbeb7e" />
 
         
